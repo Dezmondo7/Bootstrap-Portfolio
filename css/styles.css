@@ -1,3 +1,4 @@
+/*Dezmondo Bootstrap Portfolio*/
 * {
     padding: 0;
     margin: 0;
@@ -11,13 +12,13 @@ body {
     background-size: cover;
     background-position: center;
   }
-
+/*navbar*/
 .navbar {
     position: absolute;
     background-color: blue;
     margin-bottom: 20px;
 }
-
+/*top image*/
 .top-image {
     position: relative;
     text-align: center;
@@ -32,6 +33,7 @@ body {
     right: 40px;
   }
 
+  /*About me*/
   .col-sm-3 {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.1);
@@ -56,11 +58,37 @@ body {
     padding: 20px;
   }
 
-.container-fluid {
-}
-
 .grid-layout {
-    margin: 20px;
-    position: relative;
+  margin: 20px;
+  position: relative;
 }
 
+/*Jumbotron1
+.display-4 {
+  padding:20px 20px;
+  color: #fff;
+}
+
+.lead {
+  color: #fff;
+  padding-left: 20px;
+}
+
+.image1 {
+  padding-left: 20px;
+}
+*/
+
+.display-4 {
+  font-weight: bold;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.lead {
+  color: #fff;
+}
+
+.card {
+  margin-left: 20px;
+}
