@@ -1,0 +1,145 @@
+<!--Dezmondo7 Portfolio-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dezmondo7 Portfolio</title>
+</head>
+
+<body>
+    <!--Start of navbar-->
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index-two.html">Dezmondo7 Portfolio</a></div>
+            <ul class="links">
+                <li><a href="#box-a">About Me</a></li>
+                <li><a href="#box-c">Projects</a></li>
+                <li><a href="netflix.html">Netflix</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+            <a href="#" class="action_button">Cirriculum Vitae</a>
+            <div class="toggle_button">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="hero">About Me</a></li>
+            <li><a href="about">Projects</a></li>
+            <li><a href="services">Contact Me</a></li>
+            <li><a href="contact">Cirriculem Vitae</a></li>
+            <li><a href="#" class="action_button"></a></li>
+        </div>
+    </header>
+    <!--Top image-->
+    <div class="top-image">
+        <img src="header-image.avif" height="200px" width="100%" alt="faded orange strip going across the page with the words project work in white in the bottom right corner" />
+        <div class="bottom-right">
+            <p>Project Work</p>
+        </div>
+    </div>
+    <!--Start of grid layout-->
+    <main>
+        <div class="wrapper">
+            <div class="box a" id="box-a">
+                <p>About Me</p>
+            </div>
+            <div class="box b" id="box-b">
+                <p class="text">My name is Dale Warburton, I've been interested in technology and gaming as long as I can remember,
+                    the PC and X-box are my favorite gaming consoles (Dezmondo7 is my gamer tag). For the past 5 years I
+                    have worked in IT helping some of the worlds largest brands complete some pretty cool projects by
+                    supplying them highly experienced contractors. I find enjoyment in picking up new technologies and
+                    building cool projects. Aside from my IT interests I am a bit of a sports fanatic. My passions
+                    include F1, football, golf, boxing & UFC. Keeping fit and goinig to the gym is important to me
+                    aswell as trying to eat a balanced diet! Like many I enjoy eating out with friends, watching films
+                    and documentaries.</p>
+            </div>
+            <div class="box c" id="box-c">
+                <p>Projects</p>
+            </div>
+            <div class="inner-box d">
+                <div class="box e" id="box-e"><img src="netflix_tv.avif" height="300px" width="400px"
+                        alt="Netflix logo">
+                    <div class="nested-netflix"><a href="netflix.html">Netflix Clone</a></div>
+                </div>
+                <div class="box f" id="box-f"><img src="jjscalc.avif" alt="image of javasript code">
+                    <div class="nested-calc"><a href="jscalc">JS Calc</a></div>
+                </div>
+                <div class="box g" id="box-g"><img src="gallery.avif" alt="image of people looking at a gallery">
+                    <div class="nested-gallery"><a href="Gallery">Gallery</a></div>
+                </div>
+                <div class="box h" id="box-h"><img src="HKS.jpg" alt="image of two people thai boxing in a ring">
+                    <div class="nested-hks"><a href="HKS">HKS</a></div>
+                </div>
+                <div class="box i" id="box-i"><img src="netflix_tv.avif" alt="image of netflix logo on tv">
+                    <div class="nested-coffee"><a href="Coffee">Coffee</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="fcontainer">
+            <div class="frow">
+                <div class="fcol" id="contactme">
+                    <h4>Contact Me</h4>
+                    <ul>
+                        <li><a href="#">Dale Warburton</a></li>
+                        <li><a href="#">Manchester</a></li>
+                        <li><a href="#">dalewarby23@outlook.com</a></li>
+                    </ul>
+                </div>
+                <div class="fcol">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Digital</a></li>
+                        <li><a href="#">latest technologies</a></li>
+                        <li><a href="#">Personal development</a></li>
+                    </ul>
+                </div>
+                <div class="fcol">
+                    <h4>Culture</h4>
+                    <ul>
+                        <li><a href="#">Flexibility</a></li>
+                        <li><a href="#">Team socials</a></li>
+                        <li><a href="#">Working environment</a></li>
+                    </ul>
+                </div>
+                <div class="fcol2">
+                    <h4>Follow Me</h4>
+                    <ul>
+                    <div class="socialmedialinks">    
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/dalewarburton1/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--JS Dropdown Menu-->
+    <script>
+        const toggleBtn = document.querySelector('.toggle_button')
+        const toggleBtnIcon = document.querySelector('.toggle_button i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+</body>
+
+</html>

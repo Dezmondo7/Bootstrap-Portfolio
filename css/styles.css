@@ -227,12 +227,13 @@ a:hover {
   font-weight: bold;
 }
 
+/*Mobile*/
 @media only screen and (max-width: 612px) {
   .fcol2 {
     display:none;
   }
 }
-
+/*Tablet*/
 @media only screen and (max-width: 1000px) {
 
   .fcol {
