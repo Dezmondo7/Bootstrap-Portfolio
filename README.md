@@ -1,13 +1,13 @@
 # Bootstrap-Portfolio
 
-## The aim of the project was to build a version of my portfolio built in HTML and CSS with the use of bootstrap. Documented below is the step by step build of the site using Bootstrap.
+## The aim of the project was to build a version of my portfolio built in HTML and CSS with the use of Bootstrap. Documented below is the step by step build of the site using Bootstrap.
 
 ## Navigation Bar
-### The navigation bar was implemented using Bootstrap. Bootstrap was used to add the navigaton bar with built in Menu.
+### The navigation bar was implemented using Bootstrap with built-in Menu.
 
 ## Jumbotron
 
-### Implemented Hero section using Bootsrapalong with a card added which has a custom built image (Canva). Instead of listing the skills I am expected to learn in the bootcamp I added my current skillset given I have some experience which overlapped.
+### Implemented Hero section using Bootsrap along with a card which has a custom built image (Canva). Instead of listing the skills I am expected to learn in the bootcamp I added my current skillset given I have some experience which overlapped.
 
 ## Projects/work 
 
@@ -19,7 +19,7 @@
 
 ## Footer 
 
-### The footer was copied and implemented from the original, all links have the hover effect flowing through other elemets of the pageas-well as the footer to keep the style consistant.
+### The footer was copied and implemented from the original, all links have the hover effect flowing through other elements of the page as-well as the footer to keep the style consistant.
 
 ## Media Queries
 
