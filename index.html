@@ -3,11 +3,15 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Dezmondo7 Portfolio</title>
 </head>
 <!--Navbar-->
@@ -15,6 +19,11 @@
   <nav class="navbar navbar-dark bg-dark fixed-top" style="background-color: #e3f2fd;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Dezmondo7 Portfolio</a>
+      <div class="nav-links">
+        <a class="navbar-brand" href="#aboutmelink">About Me</a>
+        <a class="navbar-brand" href="#projects">Projects</a>
+        <a class="navbar-brand" href="#contactme">Contact Me</a>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
         aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,13 +38,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -43,12 +46,15 @@
                 Projects
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">HTML & CSS Portfolio</a></li>
                 <li><a class="dropdown-item" href="#">Netflix Clone</a></li>
+                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                <li><a class="dropdown-item" href="#">HKS Website</a></li>
+                <li><a class="dropdown-item" href="#">JS Calc</a></li>
+
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">HTML & CSS Portfolio</a></li>
               </ul>
             </li>
           </ul>
@@ -71,89 +77,144 @@
     </div>
   </div>
   <!--grid-->
-  <main class="grid-layout">
-    <div class="container-fluid">
-      <h1>Bootstrap 5.3</h1>
-      <div class="row">
-        <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:rgba(255, 255, 255, 0.1);">
-          <p>About Me</p>
-        </div>
-        <div class="col-sm-9 col-md-6 col-lg-8" style="background-color: rgba(255, 255, 255, 0.1)">
-          <p class="text">I've been interested in technology and gaming as long as I can
-            remember,
-            the PC and X-box are my favorite gaming consoles (Dezmondo7 is my gamer tag). For the past 5 years I
-            have worked in IT helping some of the worlds largest brands complete some pretty cool projects by
-            supplying them highly experienced contractors. I find enjoyment in picking up new technologies and
-            building cool projects. Aside from my IT interests I am a bit of a sports fanatic. My passions
-            include F1, football, golf, boxing & UFC. Keeping fit and goinig to the gym is important to me
-            aswell as trying to eat a balanced diet! Like many I enjoy eating out with friends, watching films
-            and documentaries.</p>
+  <main>
+    <article class="grid-layout">
+      <div class="container-fluid">
+        <h1 id="aboutmelink">Bootstrap 5.3</h1>
+        <div class="row">
+          <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:rgba(255, 255, 255, 0.1);">
+            <p id="maboutme">About Me</p>
+          </div>
+          <div class="col-sm-9 col-md-6 col-lg-8" style="background-color: rgba(255, 255, 255, 0.1)">
+            <p class="text">I've been interested in technology and gaming as long as I can
+              remember,
+              the PC and X-box are my favorite gaming consoles (Dezmondo7 is my gamer tag). For the past 5 years I
+              have worked in IT helping some of the worlds largest brands complete some pretty cool projects by
+              supplying them highly experienced contractors. I find enjoyment in picking up new technologies and
+              building cool projects. Aside from my IT interests I am a bit of a sports fanatic. My passions
+              include F1, football, golf, boxing & UFC. Keeping fit and goinig to the gym is important to me
+              aswell as trying to eat a balanced diet! Like many I enjoy eating out with friends, watching films
+              and documentaries.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
+    </article>
+    <!--Jumbotron-->
+    <section class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Dale Warburton</h1>
-        <p class="lead">I am certfied in HTML & CSS and have over one years experience building my own web projects.</p>
+        <p class="lead">I am certfied in HTML & CSS and have over one years experience building my own web projects.
+        </p>
       </div>
-    </div>
-    
-    <div class="container">
-    <div class="card" style="width: 18rem;">
-      <img class="images" src="images/new design.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text"><b>Skills</b></p>
-        <p class="card-text">HTML5, CSS3, JavaScript, Python, Bootstrap 5.3, Git.</Em></p>
+
+      <div class="container">
+        <div class="card" style="width: 18rem;">
+          <img class="images" src="images/new design.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text"><b>Skills</b></p>
+            <p class="card-text">HTML5, CSS3, JavaScript, Python, Bootstrap 5.3, Git.</Em></p>
+          </div>
+        </div>
       </div>
+    </section>
+
+
+    <div class="title-two" id="projects">
+      <h1>Projects</h1>
     </div>
 
-    <h2 class="title-two">Bootstrap 5.3</h2>
-
-
+    <!--Projects-->
     <main class="grid-layout">
       <div class="container-fluid">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="images/netflix_tv.avif" class="card-img-top" alt="image of netflix logo on TV">
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">Netflix Clone</a></h5>
-                  <p class="card-text">Creative personal projet to built a clone using HTML & CSS to replicate the Netflix website.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="images/gallery.avif" class="card-img-top" alt="image of two people observing a gallery">
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">Gallery</a></h5>
-                  <p class="card-text">Mini project, built an interactive gallery using HTML, CSS & JavaScript.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="images/hks.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">HKS Website</a></h5>
-                  <p class="card-text">My first attempt at creating a responsive website for mobile, tablet & desktop using HTML & CSS.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="images/jjscalc.avif"class="card-img-top" alt="image of a desktop screen with JavaScript code on the page">
-                <div class="card-body">
-                  <h5 class="card-title"><a href="#">JS Calc</a></h5>
-                  <p class="card-text">Built a JavaScript calculator using functions and logical operators to calculate basic arrithmatic equations.</p>
-                </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="images/netflix_tv.avif" class="card-img-top" alt="image of netflix logo on TV">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Netflix Clone</a></h5>
+                <p class="card-text">Creative personal projet to built a clone using HTML & CSS to replicate the
+                  Netflix website.</p>
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/gallery.avif" class="card-img-top" alt="image of two people observing a gallery">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Gallery</a></h5>
+                <p class="card-text">Mini project, built an interactive HTML, CSS & JavaSript site which was usedin the
+                  Netflix site.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/hks.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">HKS Website</a></h5>
+                <p class="card-text">My first attempt at creating a responsive website for mobile, tablet & desktop
+                  using HTML & CSS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/jjscalc.avif" class="card-img-top"
+                alt="image of a desktop screen with JavaScript code on the page">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">JS Calc</a></h5>
+                <p class="card-text">Built a JavaScript calculator using functions and logical operators to
+                  calculate
+                  basic arrithmatic equations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="fcontainer">
+        <div class="frow">
+          <div class="fcol" id="contactme">
+            <h4>Contact Me</h4>
+            <ul>
+              <li><a href="#">Dale Warburton</a></li>
+              <li><a href="#">Manchester</a></li>
+              <li><a href="#">dalewarby23@outlook.com</a></li>
+            </ul>
+          </div>
+          <div class="fcol">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">Digital</a></li>
+              <li><a href="#">latest technologies</a></li>
+              <li><a href="#">Personal development</a></li>
+            </ul>
+          </div>
+          <div class="fcol">
+            <h4>Culture</h4>
+            <ul>
+              <li><a href="#">Flexibility</a></li>
+              <li><a href="#">Team socials</a></li>
+              <li><a href="#">Working environment</a></li>
+            </ul>
+          </div>
+          <div class="fcol2">
+            <h4>Follow Me</h4>
+            <ul>
+              <div class="socialmedialinks">
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/dalewarburton1/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
 
-
-  </main>
 
 </body>
 <!--Bootstrap JS link-->
