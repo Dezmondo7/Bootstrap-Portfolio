@@ -31,7 +31,7 @@
 
 ## Live
 
-### Below are screenshots of the final version of the site along which you can find live here ......
+### Below are screenshots of the final version of the site along which you can find live here https://dezmondo7.github.io/Bootstrap-Portfolio/
 
 ![Alt text](../OneDrive/Desktop/007Portfolio/final-image1.jpg)
 ![Alt text](../OneDrive/Desktop/007Portfolio/final-image2.jpg)
