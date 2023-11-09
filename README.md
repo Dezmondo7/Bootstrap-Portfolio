@@ -7,7 +7,7 @@
 
 ## Jumbotron
 
-### Implemented Hero section using Bootsrap along with a card which has a custom built image (Canva). Instead of listing the skills I am expected to learn in the bootcamp I added my current skillset given I have some experience which overlapped.
+### Implemented Hero section using Bootstrap along with a card which has a custom built image (Canva). Instead of listing the skills I am expected to learn in the bootcamp I added my current skillset given I have some experience which overlapped.
 
 ## Projects/work 
 
